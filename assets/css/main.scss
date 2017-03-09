@@ -1,8 +1,15 @@
-/* Imports all of the other CSS-files */
-
+/* Root of CSS. Imports Vendor and Partials. */
 
 /* =================== VENDOR =================== */
-
+@import 'vendor/_normalize.scss';
 
 /* ================== PARTIALS ================== */
+@import 'partials/_colors.scss';
+@import 'partials/_menu.scss';
 @import 'partials/_header.scss';
+
+/* =================== GLOBAL =================== */
+body {
+  color: #211; // Setting a "warmer" tone for the text.
+  background-color: $background;
+}
