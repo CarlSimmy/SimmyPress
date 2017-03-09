@@ -1,9 +1,8 @@
 {
   "name": "SimmyPress",
   "author": "CarlSimmy",
-  "version": "1.0",
-  "license": "MIT",
-
+  "version": "1.0.3",
+  "license": "GPL-2.0",
   "dependencies": {},
   "devDependencies": {
     "browser-sync": "^2.11.1",
